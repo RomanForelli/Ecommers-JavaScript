@@ -25,7 +25,7 @@ header {
 }
 
 h1 {
-  color: rgb(225, 76, 65);
+  color: rgb(87, 34, 161);
   text-transform: uppercase;
   font-weight: 500px;
   font-size: 30px;
@@ -34,7 +34,7 @@ h1 {
 
 #cesta-carrito {
   border: none;
-  color: rgb(225, 76, 65);
+  color: rgb(87, 34, 161);
   font-size: 30px;
   background-color: white;
   border-radius: 50%;
@@ -45,7 +45,7 @@ h1 {
 #cesta-carrito:hover {
   cursor: pointer;
   color: white;
-  background-color: rgb(225, 76, 65);
+  background-color: rgb(87, 34, 161);
 }
 
 #cesta-carrito:focus {
@@ -115,7 +115,7 @@ select {
 }
 
 .modal-carrito h3 {
-  color: rgb(225, 76, 65);
+  color: rgb(87, 34, 161);
   padding-bottom: 5px;
 }
 
@@ -124,7 +124,7 @@ select {
   top: 15px;
   right: 15px;
   font-size: 20px;
-  color: rgb(225, 76, 65) !important;
+  color: rgb(87, 34, 161) !important;
   border: none;
   background-color: white;
 }
@@ -142,13 +142,13 @@ select {
 }
 
 .card .card-image .card-title {
-  color: rgb(225, 76, 65);
+  color: rgb(0, 0, 0);
   position: unset
   
 }
 
 .productoEnCarrito {
-  border-left: 5px solid lightblue;
+  border-left: 5px solid rgb(22, 104, 131);
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
   margin: 5px 0;
@@ -158,7 +158,7 @@ select {
 }
 
 .productoEnCarrito:hover {
-  border-left: 5px solid rgb(225, 76, 65);
+  border-left: 5px solid rgb(226, 28, 28);
 }
 
 .boton-eliminar {

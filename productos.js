@@ -7,7 +7,7 @@ const productos =
         bodega: "Rutini Wines",
         precio: 1600,
         img: '/img/trumpeter_chardonnay.jpeg',
-        cantidad: 100
+        cantidad: 1
     },
 
     {
@@ -17,7 +17,7 @@ const productos =
         bodega: "Del Fin del Mundo",
         precio: 730,
         img: '/img/postales_malbec.jpeg',
-        cantidad: 100
+        cantidad: 1
     },
 
     {
@@ -27,7 +27,7 @@ const productos =
         bodega: "Lopez",
         precio: 550,
         img: '/img/lopez_malbec.jpeg',
-        cantidad: 100
+        cantidad: 1
     },
 
     {
@@ -37,7 +37,7 @@ const productos =
         bodega: "Rutini Wines",
         precio: 1800,
         img: '/img/trumpeter_malbec.jpeg',
-        cantidad: 100
+        cantidad: 1
     },
 
     {
@@ -47,7 +47,7 @@ const productos =
         bodega: "Las Perdices",
         precio: 1500,
         img: '/img/las_perdices_malbec.jpeg',
-        cantidad: 100
+        cantidad: 1
     },
 
     {
@@ -57,7 +57,7 @@ const productos =
         bodega: "Putruele",
         precio: 1300,
         img: '/img/nocheterna_syrah.jpeg',
-        cantidad: 100
+        cantidad: 1
     },
 
     {
@@ -67,7 +67,7 @@ const productos =
         bodega: "Rutini",
         precio: 5000,
         img: '/img/rutini_malbec.jpeg',
-        cantidad: 100
+        cantidad: 1
     },
 
     {
@@ -77,7 +77,7 @@ const productos =
         bodega: "Escorihuela Gascón",
         precio: 2000,
         img: '/img/Escorihuela_Gascón_Malbec_Cabernet.jpeg',
-        cantidad: 100
+        cantidad: 1
     },
 ]
 

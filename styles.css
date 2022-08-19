@@ -66,6 +66,13 @@ p {
   line-height: 1.8;
 }
 
+.textocarritovacio{
+  color: #ff6961;
+  font-size: 2rem;
+  padding: 15px;
+  margin: 15px;
+}
+
 .card {
   max-width: 30%;
   padding: 10px;

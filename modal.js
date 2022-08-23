@@ -29,21 +29,19 @@ modalCarrito.addEventListener("click", (e) => {
     if (e.target.classList.contains("botton-vaciar"))
     {
         Swal.fire({
-            title: 'Are you sure?',
-            text: "You won't be able to revert this!",
+            title: 'Desea eliminar la compra?',
+            text: "",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
             cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes, delete it!'
+            confirmButtonText: 'Si, eliminar.'
           }).then((result) => {
             if (result.isConfirmed) 
             {
                 vaciarCarritoDeCompras();
                 Swal.fire(
-                  'Deleted!',
-                  'Your file has been deleted.',
-                  'success',
+                  'El carrito ha sido eliminado con éxito.',
                 )
             }
           })
@@ -55,7 +53,7 @@ modalCarrito.addEventListener("click", (e) => {
         Swal.fire({
           position: 'center',
           icon: 'success',
-          title: 'Finalizo su compra con Exito, Muchas gracias por confiar en nosotros!',
+          title: 'Compra finalizada con Exito, Muchas gracias por confiar en nosotros!',
           showConfirmButton: false,
           timer: 2500
         })
